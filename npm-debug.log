@@ -1,0 +1,310 @@
+info it worked if it ends with ok
+verbose cli [ 'node', '/usr/bin/npm', 'publish', '.' ]
+info using npm@1.0.15
+info using node@v0.5.1-pre
+verbose config file /home/teknopaul/.npmrc
+verbose config file /usr/local/etc/npmrc
+verbose publish [ '.' ]
+silly testEngine { name: 'rewrite',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: './lib/rewrite',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: 'package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'rewrite@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.15',
+silly testEngine   _nodeVersion: 'v0.5.1-pre',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/home/teknopaul/node_workspace/node_modules/rewrite' }
+verbose caching package.json
+verbose loadDefaults rewrite@0.0.1
+verbose pack /home/teknopaul/node_workspace/node_modules/rewrite /tmp/npm-1313391710365/1313391710365-0.8578542866744101/tmp.tgz
+verbose mkdir done: /tmp/npm-1313391710365/1313391710365-0.8578542866744101 755
+verbose mkdir'ed /tmp/npm-1313391710365/1313391710365-0.8578542866744101
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'rewrite/package.json',
+silly tar args   'rewrite/README.md',
+silly tar args   'rewrite/lib/rewrite.js',
+silly tar args   'rewrite/test/test-rewrite-flags.js',
+silly tar args   'rewrite/test/test-flexible-format.js',
+silly tar args   'rewrite/test/mocks.js',
+silly tar args   'rewrite/test/test-regex.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/tmp/npm-1313391710365/1313391710365-0.8578542866744101/tmp.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm"
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/package.json
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/README.md
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/lib/
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/lib/rewrite.js
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/test/
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/test/test-rewrite-flags.js
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/test/test-flexible-format.js
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/test/mocks.js
+silly asyncMap in gTP /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite/test/test-regex.js
+verbose gunzed /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite
+verbose rm'ed /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package
+verbose renamed [ '/tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/___package.npm/rewrite',
+verbose renamed   '/tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package' ]
+silly testEngine { name: 'rewrite',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: './lib/rewrite',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'rewrite@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.15',
+silly testEngine   _nodeVersion: 'v0.5.1-pre',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   path: '/tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package' }
+verbose caching /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package/package.json
+verbose loadDefaults rewrite@0.0.1
+verbose tarball contents [ 'package' ]
+verbose from cache /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package/package.json
+verbose pack /tmp/npm-1313391710365/1313391710365-0.8578542866744101/contents/package /home/teknopaul/.npm/rewrite/0.0.1/package.tgz
+verbose mkdir done: /home/teknopaul/.npm/rewrite/0.0.1 755
+verbose mkdir'ed /home/teknopaul/.npm/rewrite/0.0.1
+verbose tar about to write tar and gzip it.
+silly tar args [ '-cvf',
+silly tar args   '-',
+silly tar args   'package/package.json',
+silly tar args   'package/README.md',
+silly tar args   'package/lib/rewrite.js',
+silly tar args   'package/test/test-rewrite-flags.js',
+silly tar args   'package/test/test-flexible-format.js',
+silly tar args   'package/test/mocks.js',
+silly tar args   'package/test/test-regex.js' ]
+verbose success tar -cvf - <file list elided>
+verbose success gzip "--stdout"
+verbose mkdir done: /home/teknopaul/.npm/rewrite/0.0.1/___package.npm 755
+verbose unpack_ uid, gid [ undefined, undefined ]
+verbose unpackTarget /home/teknopaul/.npm/rewrite/0.0.1/package
+silly gunzTarPerm modes [ '755', '644' ]
+verbose success gzip "--decompress" "--stdout" "/home/teknopaul/.npm/rewrite/0.0.1/package.tgz"
+verbose success tar "-mvxpf" "-" "-o" "-C" "/home/teknopaul/.npm/rewrite/0.0.1/___package.npm"
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/package.json
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/README.md
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/lib/
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/lib/rewrite.js
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/test/
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/test/test-rewrite-flags.js
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/test/test-flexible-format.js
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/test/mocks.js
+silly asyncMap in gTP /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package/test/test-regex.js
+verbose gunzed /home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package
+verbose rm'ed /home/teknopaul/.npm/rewrite/0.0.1/package
+verbose renamed [ '/home/teknopaul/.npm/rewrite/0.0.1/___package.npm/package',
+verbose renamed   '/home/teknopaul/.npm/rewrite/0.0.1/package' ]
+silly testEngine { name: 'rewrite',
+silly testEngine   version: '0.0.1',
+silly testEngine   dependencies: {},
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   main: './lib/rewrite',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _npmJsonOpts: 
+silly testEngine    { file: '/home/teknopaul/.npm/rewrite/0.0.1/package/package.json',
+silly testEngine      wscript: false,
+silly testEngine      contributors: false,
+silly testEngine      serverjs: false },
+silly testEngine   _id: 'rewrite@0.0.1',
+silly testEngine   devDependencies: {},
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.15',
+silly testEngine   _nodeVersion: 'v0.5.1-pre',
+silly testEngine   _defaultsLoaded: true,
+silly testEngine   dist: 
+silly testEngine    { shasum: 'd9e0822e189ae3ed6135842aa2e36906990baae7',
+silly testEngine      tarball: 'http://registry.npmjs.org/rewrite/-/rewrite-0.0.1.tgz' },
+silly testEngine   scripts: {} }
+verbose caching /home/teknopaul/.npm/rewrite/0.0.1/package/package.json
+verbose loadDefaults rewrite@0.0.1
+silly updated sha bytes 5849
+info shasum d9e0822e189ae3ed6135842aa2e36906990baae7
+info shasum /home/teknopaul/.npm/rewrite/0.0.1/package.tgz
+verbose from cache /home/teknopaul/.npm/rewrite/0.0.1/package/package.json
+verbose chmod /home/teknopaul/.npm/rewrite/0.0.1/package.tgz 644
+silly publish { name: 'rewrite',
+silly publish   version: '0.0.1',
+silly publish   dependencies: {},
+silly publish   directories: { lib: './lib' },
+silly publish   main: './lib/rewrite',
+silly publish   engines: { node: '*' },
+silly publish   _npmJsonOpts: 
+silly publish    { file: '/home/teknopaul/.npm/rewrite/0.0.1/package/package.json',
+silly publish      wscript: false,
+silly publish      contributors: false,
+silly publish      serverjs: false },
+silly publish   _id: 'rewrite@0.0.1',
+silly publish   devDependencies: {},
+silly publish   _engineSupported: true,
+silly publish   _npmVersion: '1.0.15',
+silly publish   _nodeVersion: 'v0.5.1-pre',
+silly publish   _defaultsLoaded: true,
+silly publish   dist: 
+silly publish    { shasum: 'd9e0822e189ae3ed6135842aa2e36906990baae7',
+silly publish      tarball: 'http://registry.npmjs.org/rewrite/-/rewrite-0.0.1.tgz' },
+silly publish   scripts: {} }
+info prepublish rewrite@0.0.1
+verbose PUT rewrite
+verbose raw, before any munging rewrite
+verbose url resolving [ 'http://registry.npmjs.org/', './rewrite' ]
+verbose url resolved http://registry.npmjs.org/rewrite
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/rewrite',
+verbose url parsed   pathname: '/rewrite' }
+WARN Sending authorization over insecure channel.
+silly writing json { _id: 'rewrite',
+silly writing json   name: 'rewrite',
+silly writing json   description: undefined,
+silly writing json   'dist-tags': {},
+silly writing json   versions: {},
+silly writing json   maintainers: [ { name: 'teknopaul', email: 'teknopaul@gmail.com' } ] }
+verbose response http://registry.npmjs.org/rewrite
+silly chunk {"ok":"created new entry"}
+verbose GET rewrite
+verbose raw, before any munging rewrite
+verbose url resolving [ 'http://registry.npmjs.org/', './rewrite' ]
+verbose url resolved http://registry.npmjs.org/rewrite
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/rewrite',
+verbose url parsed   pathname: '/rewrite' }
+verbose response http://registry.npmjs.org/rewrite
+silly chunk {"_id":"rewrite","_rev":"1-c9e37bf47e824433255bf2648f672a4e","name":"rewrite","dist-tags":{},"versions":{},"maintainers":[{"name":"teknopaul","email":"teknopaul@gmail.com"}],"time":{}}
+verbose PUT rewrite/0.0.1/-tag/latest
+verbose raw, before any munging rewrite/0.0.1/-tag/latest
+verbose url resolving [ 'http://registry.npmjs.org/',
+verbose url resolving   './rewrite/0.0.1/-tag/latest' ]
+verbose url resolved http://registry.npmjs.org/rewrite/0.0.1/-tag/latest
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/rewrite/0.0.1/-tag/latest',
+verbose url parsed   pathname: '/rewrite/0.0.1/-tag/latest' }
+silly writing json { name: 'rewrite',
+silly writing json   version: '0.0.1',
+silly writing json   dependencies: {},
+silly writing json   directories: { lib: './lib' },
+silly writing json   main: './lib/rewrite',
+silly writing json   engines: { node: '*' },
+silly writing json   _npmJsonOpts: 
+silly writing json    { file: '/home/teknopaul/.npm/rewrite/0.0.1/package/package.json',
+silly writing json      wscript: false,
+silly writing json      contributors: false,
+silly writing json      serverjs: false },
+silly writing json   _id: 'rewrite@0.0.1',
+silly writing json   devDependencies: {},
+silly writing json   _engineSupported: true,
+silly writing json   _npmVersion: '1.0.15',
+silly writing json   _nodeVersion: 'v0.5.1-pre',
+silly writing json   _defaultsLoaded: true,
+silly writing json   dist: 
+silly writing json    { shasum: 'd9e0822e189ae3ed6135842aa2e36906990baae7',
+silly writing json      tarball: 'http://registry.npmjs.org/rewrite/-/rewrite-0.0.1.tgz' },
+silly writing json   scripts: {} }
+verbose response http://registry.npmjs.org/rewrite/0.0.1/-tag/latest
+silly chunk {"ok":"added version"}
+verbose attach 2 [ 'rewrite',
+verbose attach 2   '/home/teknopaul/.npm/rewrite/0.0.1/package.tgz',
+verbose attach 2   'rewrite-0.0.1.tgz' ]
+verbose GET rewrite
+verbose raw, before any munging rewrite
+verbose url resolving [ 'http://registry.npmjs.org/', './rewrite' ]
+verbose url resolved http://registry.npmjs.org/rewrite
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/rewrite',
+verbose url parsed   pathname: '/rewrite' }
+verbose attach 3 [ { stack: [Getter/Setter],
+verbose attach 3     arguments: undefined,
+verbose attach 3     type: undefined,
+verbose attach 3     message: 'ETIMEDOUT, Connection timed out',
+verbose attach 3     errno: 110,
+verbose attach 3     code: 'ETIMEDOUT',
+verbose attach 3     syscall: 'connect' },
+verbose attach 3   'rewrite',
+verbose attach 3   undefined,
+verbose attach 3   'rewrite-0.0.1-null.tgz' ]
+ERR! publish failed Error: ETIMEDOUT, Connection timed out
+ERR! publish failed     at Socket._onConnect (net_legacy.js:601:18)
+ERR! publish failed     at IOWatcher.onWritable [as callback] (net_legacy.js:186:12)
+info publish failed rollback
+verbose GET rewrite
+verbose raw, before any munging rewrite
+verbose url resolving [ 'http://registry.npmjs.org/', './rewrite' ]
+verbose url resolved http://registry.npmjs.org/rewrite
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/rewrite',
+verbose url parsed   pathname: '/rewrite' }
+verbose response http://registry.npmjs.org/rewrite
+silly chunk {"_id":"rewrite","_rev":"2-eb3c55b9f6af52cf8e7a0d70f94d2270","name":"rewrite","dist-tags":{"latest":"0.0.1"},"versions":{"0.0.1":{"name":"rewrite","version":"0.0.1","dependencies":{},"directories":{"lib":"./lib"},"main":"./lib/rewrite","engines":{"node":"*"},"_npmJsonOpts":{"file":"/home/teknopaul/.npm/rewrite/0.0.1/package/package.json","wscript":false,"contributors":false,"serverjs":false},"_id":"rewrite@0.0.1","devDependencies":{},"_engineSupported":true,"_npmVersion":"1.0.15","_nodeVersion":"v0.5.1-pre","_defaultsLoaded":true,"dist":{"shasum":"d9e0822e189ae3ed6135842aa2e36906990baae7","tarball":"http://registry.npmjs.org/rewrite/-/rewrite-0.0.1.tgz"},"scripts":{},"maintainers":[{"name":"teknopaul","email":"teknopaul@gmail.com"}]}},"maintainers":[{"name":"teknopaul","email":"teknopaul@gmail.com"}],"time":{"0.0.1":"2011-08-15T17:01:52.210Z"}}
+silly get cb [ 200,
+silly get cb   { vary: 'Accept',
+silly get cb     server: 'CouchDB/1.1.0 (Erlang OTP/R14B03)',
+silly get cb     etag: '"5PGKH64WU7DOEYS9KVMH17WDF"',
+silly get cb     date: 'Mon, 15 Aug 2011 17:05:02 GMT',
+silly get cb     'content-type': 'application/json',
+silly get cb     'content-length': '856' } ]
+verbose removing attachments { shasum: 'd9e0822e189ae3ed6135842aa2e36906990baae7',
+verbose removing attachments   tarball: 'http://registry.npmjs.org/rewrite/-/rewrite-0.0.1.tgz' }
+info unpublish No versions remain, removing entire package
+verbose DELETE rewrite/-rev/2-eb3c55b9f6af52cf8e7a0d70f94d2270
+verbose raw, before any munging rewrite/-rev/2-eb3c55b9f6af52cf8e7a0d70f94d2270
+verbose url resolving [ 'http://registry.npmjs.org/',
+verbose url resolving   './rewrite/-rev/2-eb3c55b9f6af52cf8e7a0d70f94d2270' ]
+verbose url resolved http://registry.npmjs.org/rewrite/-rev/2-eb3c55b9f6af52cf8e7a0d70f94d2270
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/rewrite/-rev/2-eb3c55b9f6af52cf8e7a0d70f94d2270',
+verbose url parsed   pathname: '/rewrite/-rev/2-eb3c55b9f6af52cf8e7a0d70f94d2270' }
+verbose response http://registry.npmjs.org/rewrite/-rev/2-eb3c55b9f6af52cf8e7a0d70f94d2270
+silly chunk {"ok":true,"id":"rewrite","rev":"3-4b9cd1fea7726ad60c825aab2f5a369a"}
+silly chunk 
+info publish failed rolled back
+ERR! Error: ETIMEDOUT, Connection timed out
+ERR!     at Socket._onConnect (net_legacy.js:601:18)
+ERR!     at IOWatcher.onWritable [as callback] (net_legacy.js:186:12)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Linux 2.6.38.6-27.fc15.x86_64
+ERR! command "node" "/usr/bin/npm" "publish" "."
+ERR! cwd /home/teknopaul/node_workspace/node_modules/rewrite
+verbose exit [ 110, true ]
